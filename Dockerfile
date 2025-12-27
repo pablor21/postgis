@@ -1,5 +1,9 @@
 FROM postgres:18-alpine
 
+LABEL maintainer="Pablo Ramirez <hello@pramirez.dev>"
+LABEL description="Docker image with PostGIS extension for PostgreSQL."
+LABEL version="1.0.0"
+
 ENV POSTGIS_VERSION=3.6.1
 ENV POSTGIS_SHA256=849391e75488a749663fbc8d63b846d063d387d286c04dea062820476f84c8f6
 
