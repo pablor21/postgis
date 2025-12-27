@@ -2,10 +2,10 @@ name: Build and Push Multi-Arch Docker Image
 
 on:
   push:
-    branches: [ main ]
+    branches: [ prod ]
     tags: [ 'v*' ]
   pull_request:
-    branches: [ main ]
+    branches: [ prod ]
 
 env:
   IMAGE_NAME: pablor21/postgis
