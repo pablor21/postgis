@@ -1,3 +1,7 @@
+# macOS generated files
 .DS_Store
+**/.DS_Store
+
+# Environment variable files
 .env
 .env.local
